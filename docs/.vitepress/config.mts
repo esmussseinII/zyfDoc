@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Zyf's 工作文档",
   description: "我的工作文档.zyf",
+   base: '/<zyfDoc>/', // 替换为你的仓库名称
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
